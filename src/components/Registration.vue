@@ -6,7 +6,7 @@
     <label class="registration__label">Пароль <input  class="registration__input"  type="password"></label>
     <label class="registration__label">Повторите пароль <input class="registration__input"  type="password"></label>
     <button class="registration__button" >Играть</button>
-    <router-link to="/signup">Войти</router-link>
+    <router-link class="registration__link" to="/signup">Войти</router-link>
   </section>
 </template>
 
@@ -22,13 +22,13 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid black;
+
   padding: 10px;
 }
 
 .registration__title{
   margin: 0;
-  font-size: 30px;
+  font-size: 34px;
 }
 
 .registration__label{
@@ -41,6 +41,7 @@ export default {
   text-align: start;
   line-height: 100%;
   height: 32px;
+  font-weight: 700;
 }
 
 .registration__input{
@@ -59,5 +60,23 @@ export default {
 
 .registration__button{
   margin-top: 100px ;
+}
+
+.registration__button{
+  background-color: cadetblue;
+  border: none;
+  border-radius: 3px;
+  box-shadow: -2px 2px 2px 1px rgb(255, 255, 255);
+  height: 40px;
+  width: 150px;
+  font-size: 24px;
+  color: white;
+}
+
+.registration__link{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  margin-top: 20px;
 }
 </style>

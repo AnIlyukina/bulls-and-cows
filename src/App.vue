@@ -28,8 +28,10 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff;
-  background-color: rgb(61, 129, 107);
-  
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
   padding: 20px;
