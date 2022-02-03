@@ -45,7 +45,7 @@ export default {
 }
 
 .registration__input{
-  border:none;
+  border: 1px solid rgba(rgb(255, 0, 0), rgb(1, 255, 1), rgb(0, 0, 255), 0.3);
   border-radius: 5px;
   max-width: 180px;
   width: 100%;
@@ -58,11 +58,9 @@ export default {
   }
 }
 
-.registration__button{
-  margin-top: 100px ;
-}
 
 .registration__button{
+  margin-top: 50px ;
   background-color: cadetblue;
   border: none;
   border-radius: 3px;
@@ -70,7 +68,7 @@ export default {
   height: 40px;
   width: 150px;
   font-size: 24px;
-  color: white;
+  color: black;
 }
 
 .registration__link{
@@ -78,5 +76,6 @@ export default {
   color: white;
   font-weight: 700;
   margin-top: 20px;
+  color: black;
 }
 </style>

@@ -27,10 +27,11 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #ffffff;
-  background-image: url('./assets/bg.jpg');
-  background-size: cover;
-  background-position: center;
+  color: #000000;
+  background-image: url('./assets/cows5.jpg');
+
+  background-size: 250px 250px;
+  background-position: bottom;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
